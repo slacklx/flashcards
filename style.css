@@ -1,15 +1,16 @@
-body{
-    background-color: azure;
+body{     
+    background-color: azure;    /*muda a cor de fundo*/
 
-}
+
+}/* */
 
 footer{
-    background-color: black;
-    color: azure;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    height: 2rem;
+    background-color: black; /*muda a cor de fundo*/
+    color: azure; /*da cor a uma letra ou fundo*/
+    bottom: 0;    /*cria um botão*/
+    position: fixed;   /*deixa a posição de uma coisa fixad, ao meio, lado direito ou esquerdo etc*/
+    width: 100%;   /*determina a largura da área de conteúdo de um elemento.*/
+    height: 2rem;   /*define o tamanho vertical ocupado por uma tag na tela do navegador.*/
 
 
 
@@ -17,8 +18,8 @@ footer{
 
 
 footer p{
-    text-align: center;
-    font-size: 0.6rem;
-    margin: 0.5rem;
+    text-align: center;  /*alinha o texto no centro do site*/
+    font-size: 0.6rem;   /*tamanho da letra*/
+    margin: 0.5rem;      /*É o preenchimento do elemento, ou seja, o espaçamento interno do elemento*/
 }
 
