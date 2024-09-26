@@ -4,6 +4,12 @@ body{
 
 }/* */
 
+
+  #container {
+    display:flex ;
+}
+
+
 footer{
     background-color: black; /*muda a cor de fundo*/
     color: azure; /*da cor a uma letra ou fundo*/
@@ -21,5 +27,34 @@ footer p{
     text-align: center;  /*alinha o texto no centro do site*/
     font-size: 0.6rem;   /*tamanho da letra*/
     margin: 0.5rem;      /*É o preenchimento do elemento, ou seja, o espaçamento interno do elemento*/
+}
+
+
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% -6rem);
+}
+
+
+    .cartao__conteudo {
+    text-align: center;
+    height: 100%;
+}
+
+
+
+
+.cartao__conteudo h3 {
+    background-color: tomato;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
 
